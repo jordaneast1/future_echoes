@@ -1,0 +1,8 @@
+#ignora all
+*
+
+#whitelist chetaigne and pointcaster
+!future_echoes.noisette
+!future_echoes_edit.noisette
+!workspace.yaml
+!.gitignore
