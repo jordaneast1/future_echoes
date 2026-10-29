@@ -1,7 +1,7 @@
 workspace:
   id: future_echoes_converted
   selectedSessionId: khoafnydz
-  selectedDeviceIndex: 135
+  selectedDeviceIndex: 91
   sessions:
     - id: khoafnydz
       label: session_0
@@ -11,15 +11,15 @@ workspace:
         orthographic: false
         showGrid: true
         position:
-          x: 11.046778
-          y: 74.931366
-          z: -182.494720
+          x: -28.859468
+          y: 54.948235
+          z: -80.207504
         rotation:
-          scalar: 0.973019
-          x: -0.230610
-          y: 0.007075
-          z: 0.001677
-        distance: 280.101776
+          scalar: 0.674037
+          x: -0.170141
+          y: -0.696975
+          z: -0.175931
+        distance: 77.188545
       timeline:
         looping: true
         fps: 30
@@ -34,11 +34,11 @@ workspace:
         []
       disabledDevices:
         - 3C:6D:66:62:2F:17
-        - alanna_1_0003_b_group
         - alanna_1_0003_b_shell
         - alanna_1_0003_group
         - alanna_1_0003_shell
         - alanna_2_0003_idle1_back
+        - alanna_2_0003_idle1_group
         - alanna_2_0003_idle1_shell
         - alanna_5_0003_group
         - alanna_5_0003_shell
@@ -48,6 +48,7 @@ workspace:
         - ari_3_0003_fill
         - ari_3_0003_group
         - ari_3_0003_idle2_back
+        - ari_3_0003_idle2_group
         - ari_3_0003_idle2_shell
         - ari_3_0003_shell
         - ari_7_0003_b_bookback
@@ -67,6 +68,7 @@ workspace:
         - ari_8_0003_shell
         - canechair
         - credits_group
+        - cuqan
         - devleena_1_0002_back
         - devleena_1_0002_group
         - devleena_2_0002_back
@@ -80,10 +82,12 @@ workspace:
         - devleena_3_0002_gap_group
         - devleena_3_0002_group
         - devleena_3_0002_idle1_back
+        - devleena_3_0002_idle1_group
         - devleena_3_0002_idle1_shell
         - dinusha_1_C0007_group
         - dinusha_1_C0007_shell
         - dinusha_3-C0009_00032_1_idle1_back
+        - dinusha_3-C0009_00032_1_idle1_group
         - dinusha_3-C0009_00032_1_idle1_shell
         - dinusha_6_C0012_0003_group
         - dinusha_6_C0012_0003_shell
@@ -110,21 +114,25 @@ workspace:
         - env_throne_stage1
         - env_throne_stage2
         - env_throne_stage3
+        - gebaaxmyv
         - gnomon_50cm
         - joamcy
+        - jwau
         - lee_1_0003_add_group
         - lee_1_0003_add_shell
-        - lee_1_0003_group
         - lee_1_0003_shell
         - lee_2_0003_group
         - lee_2_0003_idle1_back
+        - lee_2_0003_idle1_group
         - lee_2_0003_idle1_shell
         - lee_2_0003_shell
         - lee_4_0003_group
         - lee_4_0003_shell
         - lee_6_0003_group
         - lee_6_0003_shell
+        - live_group
         - nodoka_2-C2463_1_idle1_back
+        - nodoka_2-C2463_1_idle1_group
         - nodoka_2-C2463_1_idle1_shell
         - nodoka_2_C2463_1_b_group
         - nodoka_2_C2463_1_b_shell
@@ -137,7 +145,6 @@ workspace:
         - nuxwi
         - tanoa
         - tetaecia
-        - toez
         - uenocz
         - yaghaedf
   devices:
@@ -340,7 +347,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 0.250000
           bounds:
             active: false
             value:
@@ -355,7 +362,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -395,7 +402,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 0.250000
           bounds:
             active: false
             value:
@@ -410,7 +417,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -484,7 +491,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 1132
+          currentFrame: 1145
           endFrame: 1145
           bufferCapacity: 60
           prefetchAhead: 30
@@ -539,7 +546,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 1132
+          currentFrame: 1145
           endFrame: 1145
           bufferCapacity: 60
           prefetchAhead: 30
@@ -649,7 +656,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 370
-          currentFrame: 584
+          currentFrame: 609
           endFrame: 819
           bufferCapacity: 60
           prefetchAhead: 30
@@ -704,7 +711,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 370
-          currentFrame: 584
+          currentFrame: 609
           endFrame: 819
           bufferCapacity: 60
           prefetchAhead: 30
@@ -869,61 +876,6 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1509
-          endFrame: 1530
-          bufferCapacity: 60
-          prefetchAhead: 30
-        attributes:
-          []
-        transform:
-          position:
-            x: 0.000000
-            y: 0.000000
-            z: 0.938000
-          rotation:
-            x: 0.000000
-            y: 180.000000
-            z: 0.000000
-          scale:
-            x: 1.000000
-            y: 1.000000
-            z: 1.000000
-          pointScale:
-            active: true
-            value: 0.000000
-          bounds:
-            active: false
-            value:
-              min:
-                x: -2500
-                y: 0
-                z: -2500
-              max:
-                x: 2500
-                y: 2500
-                z: 2500
-          sample: 1
-          backend: CPU
-        color:
-          gain: 0.000000
-        operatorPipeline:
-          updateHz: 30
-          concurrency: 4
-        operators:
-          []
-    - ply:
-        id: ari_3_0003_back
-        label: ari_3_0003_back
-        parentId: ari_3_0003_group
-        order: 1
-        file:
-          path: /opt/future-echoes/takes/ari/ari_3_0003_18580-20110/back
-        positionUnits: Automatic
-        sequence:
-          playing: false
-          looping: false
-          frameRate: 30
-          startFrame: 0
           currentFrame: 1508
           endFrame: 1530
           bufferCapacity: 60
@@ -945,7 +897,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -960,7 +912,62 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
+        operatorPipeline:
+          updateHz: 30
+          concurrency: 4
+        operators:
+          []
+    - ply:
+        id: ari_3_0003_back
+        label: ari_3_0003_back
+        parentId: ari_3_0003_group
+        order: 1
+        file:
+          path: /opt/future-echoes/takes/ari/ari_3_0003_18580-20110/back
+        positionUnits: Automatic
+        sequence:
+          playing: false
+          looping: false
+          frameRate: 30
+          startFrame: 0
+          currentFrame: 1509
+          endFrame: 1530
+          bufferCapacity: 60
+          prefetchAhead: 30
+        attributes:
+          []
+        transform:
+          position:
+            x: 0.000000
+            y: 0.000000
+            z: 0.938000
+          rotation:
+            x: 0.000000
+            y: 180.000000
+            z: 0.000000
+          scale:
+            x: 1.000000
+            y: 1.000000
+            z: 1.000000
+          pointScale:
+            active: true
+            value: 1.000000
+          bounds:
+            active: false
+            value:
+              min:
+                x: -2500
+                y: 0
+                z: -2500
+              max:
+                x: 2500
+                y: 2500
+                z: 2500
+          sample: 1
+          backend: CPU
+        color:
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -1055,7 +1062,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -1070,7 +1077,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -1419,7 +1426,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 1140
-          currentFrame: 2714
+          currentFrame: 2072
           endFrame: 2726
           bufferCapacity: 60
           prefetchAhead: 30
@@ -1440,7 +1447,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 0.999774
           bounds:
             active: false
             value:
@@ -1455,7 +1462,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 0.999749
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -1474,7 +1481,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 1140
-          currentFrame: 2714
+          currentFrame: 2072
           endFrame: 2726
           bufferCapacity: 60
           prefetchAhead: 30
@@ -1495,7 +1502,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 0.999774
           bounds:
             active: false
             value:
@@ -1510,7 +1517,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 0.999749
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -1529,7 +1536,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 1140
-          currentFrame: 1270
+          currentFrame: 1179
           endFrame: 2726
           bufferCapacity: 60
           prefetchAhead: 30
@@ -1584,7 +1591,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 1140
-          currentFrame: 1270
+          currentFrame: 1178
           endFrame: 2726
           bufferCapacity: 60
           prefetchAhead: 30
@@ -1605,7 +1612,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 0.999774
           bounds:
             active: false
             value:
@@ -1620,7 +1627,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 0.999749
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -1639,7 +1646,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 1140
-          currentFrame: 1270
+          currentFrame: 1178
           endFrame: 2726
           bufferCapacity: 60
           prefetchAhead: 30
@@ -1694,7 +1701,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 1140
-          currentFrame: 1270
+          currentFrame: 1178
           endFrame: 2726
           bufferCapacity: 60
           prefetchAhead: 30
@@ -1770,7 +1777,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -1785,7 +1792,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -1825,7 +1832,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -1840,7 +1847,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -1935,7 +1942,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -1950,7 +1957,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -2079,7 +2086,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1
+          currentFrame: 236
           endFrame: 449
           bufferCapacity: 60
           prefetchAhead: 30
@@ -2100,7 +2107,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -2115,7 +2122,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -2189,7 +2196,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1
+          currentFrame: 236
           endFrame: 449
           bufferCapacity: 60
           prefetchAhead: 30
@@ -2210,7 +2217,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -2225,7 +2232,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -2244,7 +2251,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1291
+          currentFrame: 175
           endFrame: 1400
           bufferCapacity: 60
           prefetchAhead: 30
@@ -2265,7 +2272,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -2280,7 +2287,7 @@ workspace:
           sample: 1
           backend: CUDA
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -2354,7 +2361,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 1291
+          currentFrame: 1400
           endFrame: 1400
           bufferCapacity: 60
           prefetchAhead: 30
@@ -2375,7 +2382,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -2390,7 +2397,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -2904,7 +2911,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 343
+          currentFrame: 255
           endFrame: 358
           bufferCapacity: 60
           prefetchAhead: 30
@@ -2925,7 +2932,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -2940,7 +2947,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -3014,7 +3021,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 343
+          currentFrame: 255
           endFrame: 358
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3035,7 +3042,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -3050,7 +3057,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -3234,7 +3241,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 847
+          currentFrame: 480
           endFrame: 861
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3255,7 +3262,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -3270,7 +3277,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -3289,7 +3296,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 847
+          currentFrame: 481
           endFrame: 861
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3310,7 +3317,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -3325,7 +3332,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -3395,11 +3402,11 @@ workspace:
           path: /opt/future-echoes/takes/lee/lee_1_0003_00452-00704/front
         positionUnits: Automatic
         sequence:
-          playing: false
+          playing: true
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 237
+          currentFrame: 35
           endFrame: 252
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3450,11 +3457,11 @@ workspace:
           path: /opt/future-echoes/takes/lee/lee_1_0003_00452-00704/back
         positionUnits: Automatic
         sequence:
-          playing: false
+          playing: true
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 237
+          currentFrame: 35
           endFrame: 252
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3505,7 +3512,7 @@ workspace:
           path: /opt/future-echoes/takes/lee/lee_1_0003_00452-00704/shell
         positionUnits: Automatic
         sequence:
-          playing: false
+          playing: true
           looping: true
           frameRate: 30
           startFrame: 0
@@ -3564,7 +3571,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 454
+          currentFrame: 470
           endFrame: 470
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3585,7 +3592,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -3600,7 +3607,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -3619,7 +3626,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 454
+          currentFrame: 470
           endFrame: 470
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3640,7 +3647,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -3655,7 +3662,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -3729,7 +3736,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1472
+          currentFrame: 974
           endFrame: 1499
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3750,7 +3757,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 0.997312
           bounds:
             active: false
             value:
@@ -3765,7 +3772,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 0.997013
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -3784,7 +3791,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1472
+          currentFrame: 974
           endFrame: 1499
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3805,7 +3812,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 0.997312
           bounds:
             active: false
             value:
@@ -3820,7 +3827,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 0.997013
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -3894,7 +3901,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 783
+          currentFrame: 172
           endFrame: 797
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3915,7 +3922,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -3930,7 +3937,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -3949,7 +3956,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 783
+          currentFrame: 172
           endFrame: 797
           bufferCapacity: 60
           prefetchAhead: 30
@@ -3970,7 +3977,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -3985,7 +3992,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -4059,7 +4066,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1143
+          currentFrame: 1122
           endFrame: 2137
           bufferCapacity: 60
           prefetchAhead: 30
@@ -4114,7 +4121,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1143
+          currentFrame: 1122
           endFrame: 2137
           bufferCapacity: 60
           prefetchAhead: 30
@@ -4389,7 +4396,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 600
-          currentFrame: 840
+          currentFrame: 996
           endFrame: 1099
           bufferCapacity: 60
           prefetchAhead: 30
@@ -4444,7 +4451,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 600
-          currentFrame: 840
+          currentFrame: 996
           endFrame: 1099
           bufferCapacity: 60
           prefetchAhead: 30
@@ -4575,7 +4582,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -4590,7 +4597,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -4630,7 +4637,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -4645,7 +4652,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -4719,7 +4726,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1258
+          currentFrame: 872
           endFrame: 1259
           bufferCapacity: 60
           prefetchAhead: 30
@@ -4740,7 +4747,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -4755,7 +4762,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -4774,7 +4781,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1259
+          currentFrame: 872
           endFrame: 1259
           bufferCapacity: 60
           prefetchAhead: 30
@@ -4795,7 +4802,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -4810,7 +4817,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -4919,9 +4926,9 @@ workspace:
             y: 0.000000
             z: 0.000000
           scale:
-            x: 1.000000
-            y: 1.000000
-            z: 1.000000
+            x: 2.000000
+            y: 2.000000
+            z: 2.000000
           pointScale:
             active: true
             value: 0.263000
@@ -4958,7 +4965,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 129
+          currentFrame: 310
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -4985,17 +4992,17 @@ workspace:
             rangeMax: 5.000000
         transform:
           position:
-            x: 0.477796
+            x: 0.000000
             y: 0.000000
-            z: -0.434272
+            z: 0.000000
           rotation:
             x: 0.000000
             y: 0.000000
             z: 0.000000
           scale:
-            x: 2.500000
-            y: 2.500000
-            z: 2.500000
+            x: 2.000000
+            y: 2.000000
+            z: 2.000000
           pointScale:
             active: true
             value: 0.016600
@@ -5116,7 +5123,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: false
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -5131,7 +5138,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -5150,7 +5157,7 @@ workspace:
           looping: true
           frameRate: 24
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 341
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -5205,7 +5212,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -5220,7 +5227,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -5239,7 +5246,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 299
+          currentFrame: 264
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -5298,7 +5305,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 299
+          currentFrame: 0
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -5323,7 +5330,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: false
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -5338,7 +5345,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -5357,7 +5364,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 297
+          currentFrame: 61
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -5416,7 +5423,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 370
+          currentFrame: 0
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -5473,9 +5480,9 @@ workspace:
         sequence:
           playing: false
           looping: true
-          frameRate: 30
+          frameRate: 16
           startFrame: 0
-          currentFrame: 397
+          currentFrame: 0
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -5500,7 +5507,7 @@ workspace:
             z: 0.500000
           pointScale:
             active: false
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -5515,7 +5522,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -5559,7 +5566,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: false
-            value: 0.083333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -5574,7 +5581,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.083333
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -5697,7 +5704,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: false
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -5712,7 +5719,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -5756,7 +5763,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: false
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -5771,7 +5778,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -6006,11 +6013,11 @@ workspace:
           path: /opt/future-echoes/takes/alanna/alanna_idle_all/front
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 249
+          currentFrame: 428
           endFrame: 2864
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6031,7 +6038,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6061,11 +6068,11 @@ workspace:
           path: /opt/future-echoes/takes/alanna/alanna_idle_all/back
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 11
           endFrame: 2864
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6086,7 +6093,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6116,11 +6123,11 @@ workspace:
           path: /opt/future-echoes/takes/alanna/alanna_idle_all/shell
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 11
           endFrame: 2864
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6141,7 +6148,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6171,11 +6178,11 @@ workspace:
           path: /opt/future-echoes/takes/ari/ari_idle_all/front
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 1337
+          currentFrame: 573
           endFrame: 1695
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6196,7 +6203,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6226,11 +6233,11 @@ workspace:
           path: /opt/future-echoes/takes/ari/ari_idle_all/back
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 10
           endFrame: 1695
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6251,7 +6258,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6281,11 +6288,11 @@ workspace:
           path: /opt/future-echoes/takes/ari/ari_idle_all/shell
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 10
           endFrame: 1695
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6306,7 +6313,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6336,11 +6343,11 @@ workspace:
           path: /opt/future-echoes/takes/devleena/devleena_idle_all/front
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 762
+          currentFrame: 510
           endFrame: 2173
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6361,7 +6368,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6391,11 +6398,11 @@ workspace:
           path: /opt/future-echoes/takes/devleena/devleena_idle_all/back
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 9
           endFrame: 2173
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6416,7 +6423,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6446,11 +6453,11 @@ workspace:
           path: /opt/future-echoes/takes/devleena/devleena_idle_all/shell
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 8
           endFrame: 2173
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6471,7 +6478,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6501,11 +6508,11 @@ workspace:
           path: /opt/future-echoes/takes/dinusha/dinusha_idle_all/front
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 124
-          currentFrame: 683
+          currentFrame: 263
           endFrame: 2403
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6526,7 +6533,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6556,11 +6563,11 @@ workspace:
           path: /opt/future-echoes/takes/dinusha/dinusha_idle_all/back
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 8
           endFrame: 2403
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6581,7 +6588,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6611,11 +6618,11 @@ workspace:
           path: /opt/future-echoes/takes/dinusha/dinusha_idle_all/shell
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 7
           endFrame: 2403
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6636,7 +6643,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 0.000000
           bounds:
             active: false
             value:
@@ -6666,11 +6673,11 @@ workspace:
           path: /opt/future-echoes/takes/lee/lee_idle_all/front
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 2760
+          currentFrame: 5231
           endFrame: 5513
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6691,7 +6698,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6721,11 +6728,11 @@ workspace:
           path: /opt/future-echoes/takes/lee/lee_idle_all/back
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 6
           endFrame: 5513
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6746,7 +6753,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6776,11 +6783,11 @@ workspace:
           path: /opt/future-echoes/takes/lee/lee_idle_all/shell
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 5
           endFrame: 5513
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6801,7 +6808,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6831,11 +6838,11 @@ workspace:
           path: /opt/future-echoes/takes/nodoka/nodoka_idle_all/front
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 2674
+          currentFrame: 399
           endFrame: 6806
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6856,7 +6863,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6886,11 +6893,11 @@ workspace:
           path: /opt/future-echoes/takes/nodoka/nodoka_idle_all/back
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 4
           endFrame: 6806
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6911,7 +6918,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -6941,11 +6948,11 @@ workspace:
           path: /opt/future-echoes/takes/nodoka/nodoka_idle_all/shell
         positionUnits: Automatic
         sequence:
-          playing: true
+          playing: false
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 0
+          currentFrame: 3
           endFrame: 6806
           bufferCapacity: 60
           prefetchAhead: 30
@@ -6966,7 +6973,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 0.933333
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -7000,7 +7007,7 @@ workspace:
           looping: true
           frameRate: 24
           startFrame: 0
-          currentFrame: 276
+          currentFrame: 143
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -7025,7 +7032,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: false
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -7040,7 +7047,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -7138,7 +7145,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: true
-            value: 1.200000
+            value: 1.000000
           bounds:
             active: true
             value:
@@ -7172,7 +7179,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 169
+          currentFrame: 257
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -7287,7 +7294,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: false
-            value: 0.000000
+            value: 1.000000
           bounds:
             active: false
             value:
@@ -7302,7 +7309,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 1.000000
         operatorPipeline:
           updateHz: 30
           concurrency: 4
@@ -7801,7 +7808,7 @@ workspace:
           looping: true
           frameRate: 30
           startFrame: 0
-          currentFrame: 180
+          currentFrame: 113
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -7826,7 +7833,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: false
-            value: 0.000000
+            value: 0.991782
           bounds:
             active: false
             value:
@@ -7841,7 +7848,7 @@ workspace:
           sample: 1
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 0.991827
         operatorPipeline:
           updateHz: 60
           concurrency: 4
@@ -7860,7 +7867,7 @@ workspace:
           looping: false
           frameRate: 30
           startFrame: 0
-          currentFrame: 335
+          currentFrame: 3400
           endFrame: -1
           bufferCapacity: 60
           prefetchAhead: 30
@@ -7874,7 +7881,7 @@ workspace:
           position:
             x: 0.000000
             y: 0.012754
-            z: -2.489573
+            z: -2.490000
           rotation:
             x: 0.000000
             y: 0.000000
@@ -7885,7 +7892,7 @@ workspace:
             z: 1.000000
           pointScale:
             active: false
-            value: 0.000000
+            value: 0.916667
           bounds:
             active: false
             value:
@@ -7900,7 +7907,7 @@ workspace:
           sample: 2
           backend: CPU
         color:
-          gain: 0.000000
+          gain: 0.617155
         operatorPipeline:
           updateHz: 60
           concurrency: 4
@@ -7938,8 +7945,67 @@ workspace:
             y: 1.000000
             z: 1.000000
           pointScale:
-            active: false
+            active: true
             value: 1.000000
+          bounds:
+            active: false
+            value:
+              min:
+                x: -2500
+                y: 0
+                z: -2500
+              max:
+                x: 2500
+                y: 2500
+                z: 2500
+          sample: 1
+          backend: CPU
+        color:
+          gain: 1.000000
+        operatorPipeline:
+          updateHz: 60
+          concurrency: 4
+        operators:
+          []
+    - ply:
+        id: cuqan
+        label: env_laperouse_stars
+        parentId: gebaaxmyv
+        order: 1
+        file:
+          path: file:///opt/future-echoes/20262910/hd_laperouse_splat_v06.stars/animated
+        positionUnits: Automatic
+        sequence:
+          playing: false
+          looping: true
+          frameRate: 30
+          startFrame: 0
+          currentFrame: 50
+          endFrame: -1
+          bufferCapacity: 60
+          prefetchAhead: 30
+        attributes:
+          - name: pscale
+            target: PointScale
+            precision: Bits8
+            rangeMin: 0.000000
+            rangeMax: 50.000000
+        transform:
+          position:
+            x: 0.000000
+            y: 0.000000
+            z: -2.490000
+          rotation:
+            x: 0.000000
+            y: 0.000000
+            z: 0.000000
+          scale:
+            x: 1.000000
+            y: 1.000000
+            z: 1.000000
+          pointScale:
+            active: false
+            value: 0.958333
           bounds:
             active: false
             value:
@@ -8039,7 +8105,7 @@ workspace:
         currentFrame: 0
     - id: live_group
       label: live
-      collapsed: true
+      collapsed: false
       parentId: ""
       order: 3
       transform:
@@ -8056,7 +8122,7 @@ workspace:
           y: 1.000000
           z: 1.000000
         pointScale:
-          active: false
+          active: true
           value: 1.000000
         bounds:
           active: false
@@ -8158,9 +8224,9 @@ workspace:
       order: 23
       transform:
         position:
-          x: 0.000000
+          x: -1.240000
           y: 0.000000
-          z: 0.000000
+          z: -1.640000
         rotation:
           x: 0.000000
           y: 0.000000
@@ -8310,9 +8376,9 @@ workspace:
       order: 24
       transform:
         position:
-          x: 0.000000
+          x: 0.290000
           y: 0.000000
-          z: 0.000000
+          z: -2.310000
         rotation:
           x: 0.000000
           y: 0.000000
@@ -8718,7 +8784,7 @@ workspace:
         sample: 1
         backend: CPU
       sequence:
-        playing: false
+        playing: true
         looping: true
         currentFrame: 0
     - id: lee_1_0003_add_group
@@ -8728,9 +8794,9 @@ workspace:
       order: 5
       transform:
         position:
-          x: -0.523389
+          x: -0.600000
           y: 0.000000
-          z: -2.476228
+          z: -2.350000
         rotation:
           x: 0.000023
           y: 30.646976
@@ -8842,9 +8908,9 @@ workspace:
       order: 4
       transform:
         position:
-          x: -0.520000
+          x: -0.595224
           y: 0.000000
-          z: -2.480000
+          z: -2.350332
         rotation:
           x: 0.000023
           y: 30.646999
@@ -9027,7 +9093,7 @@ workspace:
         currentFrame: 0
     - id: env_beetle_group
       label: env_beetle
-      collapsed: true
+      collapsed: false
       parentId: environment_group
       order: 0
       transform:
@@ -9141,7 +9207,7 @@ workspace:
         currentFrame: 0
     - id: env_frangipani_group
       label: env_frangipani
-      collapsed: true
+      collapsed: false
       parentId: environment_group
       order: 2
       transform:
@@ -9179,7 +9245,7 @@ workspace:
         currentFrame: 0
     - id: env_throne_group
       label: env_throne
-      collapsed: true
+      collapsed: false
       parentId: environment_group
       order: 4
       transform:
@@ -9538,7 +9604,7 @@ workspace:
           y: 1.000000
           z: 1.000000
         pointScale:
-          active: false
+          active: true
           value: 1.000000
         bounds:
           active: false
@@ -9554,7 +9620,7 @@ workspace:
         sample: 1
         backend: CPU
       sequence:
-        playing: true
+        playing: false
         looping: true
         currentFrame: 0
     - id: ari_3_0003_idle2_group
@@ -9576,7 +9642,7 @@ workspace:
           y: 1.000000
           z: 1.000000
         pointScale:
-          active: false
+          active: true
           value: 1.000000
         bounds:
           active: false
@@ -9592,7 +9658,7 @@ workspace:
         sample: 1
         backend: CPU
       sequence:
-        playing: true
+        playing: false
         looping: true
         currentFrame: 0
     - id: devleena_3_0002_idle1_group
@@ -9614,7 +9680,7 @@ workspace:
           y: 1.000000
           z: 1.000000
         pointScale:
-          active: false
+          active: true
           value: 1.000000
         bounds:
           active: false
@@ -9630,7 +9696,7 @@ workspace:
         sample: 1
         backend: CPU
       sequence:
-        playing: true
+        playing: false
         looping: true
         currentFrame: 0
     - id: dinusha_3-C0009_00032_1_idle1_group
@@ -9652,7 +9718,7 @@ workspace:
           y: 1.000000
           z: 1.000000
         pointScale:
-          active: false
+          active: true
           value: 1.000000
         bounds:
           active: false
@@ -9668,7 +9734,7 @@ workspace:
         sample: 1
         backend: CPU
       sequence:
-        playing: true
+        playing: false
         looping: true
         currentFrame: 0
     - id: lee_2_0003_idle1_group
@@ -9690,7 +9756,7 @@ workspace:
           y: 1.000000
           z: 1.000000
         pointScale:
-          active: false
+          active: true
           value: 1.000000
         bounds:
           active: false
@@ -9706,7 +9772,7 @@ workspace:
         sample: 1
         backend: CPU
       sequence:
-        playing: true
+        playing: false
         looping: true
         currentFrame: 0
     - id: nodoka_2-C2463_1_idle1_group
@@ -9728,7 +9794,7 @@ workspace:
           y: 1.000000
           z: 1.000000
         pointScale:
-          active: false
+          active: true
           value: 1.000000
         bounds:
           active: false
@@ -9744,7 +9810,7 @@ workspace:
         sample: 1
         backend: CPU
       sequence:
-        playing: true
+        playing: false
         looping: true
         currentFrame: 0
     - id: nuxwi
